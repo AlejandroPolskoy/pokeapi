@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex TODO board</title>
+    <link rel="stylesheet" href="./css/todo.css">
+    <script src="./js/todo.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="tabs header">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="todo.html">TODO list</a></li>
+                <li><a href="/whack/index.html">Whack-a-Mole</a></li>
+            </ul>
+        </div>
+        <img src="./img/International_Pokémon_logo.png" />
+    </header>
+
+    <main>
+        <div class="tabs center">
+            <label>Note</label>
+            <input type="text" class="textInput" name="textInput" id="textInput" placeholder="Take your notes..." />
+            <input type="button" value="ADD" onclick="add_clicked()" />
+        </div>
+        <div class="tabs2">
+            <div>
+                <h3>Notes</h3>
+            </div>
+            <div class="notes_holder">
+                <!-- <div class="note">
+                    <p>TEXT</p>
+                    <div class="cross"><a onclick="cross_clicked(this)">X</a></div>
+                </div> -->
+            </div>
+            <div class="task_msg">
+                <p>All tasks are completed</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+</html>

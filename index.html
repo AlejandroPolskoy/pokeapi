@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokeapi Alejandro</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="tabs header">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="todo.html">TODO list</a></li>
+                <li><a href="/whack/index.html">Whack-a-Mole</a></li>
+            </ul>
+        </div>
+        <img src="./img/International_Pokémon_logo.png" />
+    </header>
+
+    <main>
+        <div class="tabs">
+            <ul>
+                <li><a onclick="genChanged(this, 'all')">Todos</a></li>
+                <li><a class="--selected" onclick="genChanged(this, 'generation-i')">Gen-I</a></li>
+                <li><a onclick="genChanged(this, 'generation-ii')">Gen-II</a></li>
+                <li><a onclick="genChanged(this, 'generation-iii')">Gen-III</a></li>  
+                <li><a onclick="genChanged(this, 'generation-vi')">Gen-IV</a></li>
+                <li><a onclick="genChanged(this, 'generation-v')">Gen-V</a></li>
+                <li><a onclick="genChanged(this, 'generation-vi')">Gen-VI</a></li>
+                <li><a onclick="genChanged(this, 'generation-vii')">Gen-VII</a></li>
+                <li><a onclick="genChanged(this, 'generation-viii')">Gen-VIII</a></li>
+            </ul>
+            <ul class="types">
+                <li><a class="--type-selected" onclick="loadPokes_byType(this, 'all')">Todos</a></li>
+            </ul>
+        </div>
+
+        <div class="galeria">
+
+            <div class="lds-ellipsis"><div></div><div></div><div></div><div></div></div>
+
+            <!-- <div class="galery__item">
+                <div class="galery__item_face">
+                    <div class="galery_title"><h3>NAME</h3><span>ID</span></span></div>
+                    <img src="" />
+                    <div class="galery_bot">
+                        <div class="ability_holder"></div>
+                        <div class="icon_holder"></div>
+                    </div>
+                </div>
+                <div class="galery__item_back">
+                    <div class="galery_title"><h3>STATS</h3><span>ID</span></span></div>
+                </div>
+            </div> -->
+
+        </div>
+        <div class="galery_buttons">
+            <a href="" >ATRAS</a>
+            <a href="" >ADELANTE</a>
+        </div>
+    </main>
+
+    <footer>
+        
+    </footer>
+</body>
+</html>

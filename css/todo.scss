@@ -1,0 +1,102 @@
+@import "_reset";
+
+header {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    img {
+        width: 50vw;
+        margin-bottom: 20px;
+    }
+    ul {
+        justify-content: start;
+    }
+}
+
+.header {
+    margin-top: -10px;
+    ul {
+        justify-content: start;
+        margin-left: 30px;
+        display: flex;
+        column-gap: 20px;
+        list-style-type: none;
+        align-items: end;
+        flex-wrap: wrap;
+
+        a {
+            text-transform: capitalize;
+            cursor: pointer;
+        }
+    }
+}
+
+body {
+    background-image: url("../img/pokemon-psyduck-psaidak-pokemon-psidak-neon-neon.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: black;
+    background-repeat: no-repeat;
+}
+
+main {
+    width: 80vw;
+    margin: 0 auto;
+}
+
+.tabs {
+    border-radius: 50px;
+    background-color: beige;
+    padding: 20px 0;
+    margin: 0px auto 40px;
+    display: flex;
+    gap: 20px;
+    width: 80vw;
+    font-size: 24px;
+}
+.tabs2 {
+    border-radius: 50px;
+    background-color: beige;
+    padding: 20px 0;
+    margin-bottom: 40px;
+    h3 {
+        text-align: center;
+    }
+}
+
+.notes_holder {
+    border-radius: 50px;
+    background-color: beige;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.note {
+    padding: 14px 20px 10px 10px;
+    position: relative;
+    display: inline-block;
+    background-color: gold;
+    border-radius: 20px;
+}
+
+.cross {
+    padding: 4px 6px;
+    border-radius: 20px;
+    background-color: red;
+    display: inline-block;
+    font-size: 13px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.task_msg {
+    text-align: center;
+}
+.center {
+    justify-content: center;
+}
